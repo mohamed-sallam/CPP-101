@@ -7,8 +7,8 @@ int main() {
 	while(n>1){
 		n/=i;
 		i++;
-	} i--;
-	if(n==1 && i%2){
+	}
+	if(n==1 && (i-1)%2){
 		for(j=1;j<=i;j+=2){
 			for(k=1;k<=j;k++)f*=k;
 			s+=f; f=1;
