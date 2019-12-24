@@ -12,10 +12,7 @@ int main() {
 	}
 	cout<<"\nThe numbers which bigger than the avg are: ";
 	for(i=0;i<10;i++){
-		if(n[i]>s/10){
-			cout<<n[i];
-			if(i<9) cout<<',';
-		}
+		if(n[i]>s/10) cout<<n[i]<<'\t';
 	}
 	cout<<"\n\nmax= "<<max;
 }
