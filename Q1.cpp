@@ -22,9 +22,7 @@ int main() {
 		f*=i;
 		if(i%2) s+=f;    //Or if(i%2==1) s+=f;
 	}
-	if(n==f && (i-1)%2){	
-		cout<<"Sum= "<<s;
-	}
+	if(n==f && (i-1)%2) cout<<"Sum= "<<s;		//Or if(n==f && (i-1)%2 == 1) cout<<"Sum= "<<s;
 	else cout<<"Error";
 }
 
