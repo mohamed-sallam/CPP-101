@@ -18,7 +18,7 @@ int main() {
 	//The new one is designed by Mahmoud Abdulnasser
 	int f=1,s=0,i,n;
 	cout<<"1!+3!+5!+7!+...+N\nEnter N: "; cin>>n;
-	for(i=1;f<n;i++){
+	for(i=1;f<n;++i){
 		f*=i;
 		if(i%2) s+=f;    //Or if(i%2==1) s+=f;
 	}
